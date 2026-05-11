@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agro Forte, Futuro Sustentável - Concurso Agrinho 2026">
+    <title>Agro Forte, Futuro Sustentável | Agrinho 2026</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegação Fixa -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <span class="logo-text">Agro Forte</span>
+                <span class="logo-subtitle">Futuro Sustentável</span>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#" class="nav-link" onclick="showPage('home'); return false;">Início</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('historia'); return false;">História do Agrinho</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('agro-ambiente'); return false;">O Agro e o Meio Ambiente</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('tecnologias'); return false;">Tecnologias Sustentáveis</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('agua-solo'); return false;">Água e Solo</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('futuro'); return false;">Futuro Sustentável</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Container Principal -->
+    <main class="main-container">
+        <!-- Página Home -->
+        <section id="home" class="page active">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">Agro Forte, Futuro Sustentável</h1>
+                    <p class="hero-subtitle">Equilíbrio entre produção e meio ambiente</p>
+                    <p class="hero-description">
+                        Explore a relação harmoniosa entre a agricultura moderna e a preservação ambiental. 
+                        Conheça inovações, práticas sustentáveis e o futuro do agronegócio brasileiro.
+                    </p>
+                    <div class="hero-cta">
+                        <button class="btn btn-primary" onclick="showPage('historia')">Conheça a História</button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="geometric-element element-1"></div>
+                    <div class="geometric-element element-2"></div>
+                    <div class="geometric-element element-3"></div>
+                </div>
+            </div>
+
+            <!-- Seção de Apresentação -->
+            <section class="intro-section">
+                <div class="section-container">
+                    <div class="intro-grid">
+                        <div class="intro-card fade-in">
+                            <div class="card-corner top-left"></div>
+                            <div class="card-corner bottom-right"></div>
+                            <h3>Tema do Concurso</h3>
+                            <p>
+                                O Concurso Agrinho 2026, promovido pelo SENAR-PR e SEED-PR, 
+                                incentiva estudantes a explorar a programação e a tecnologia 
+                                aplicadas ao agronegócio sustentável.
+                            </p>
+                        </div>
+                        <div class="intro-card fade-in">
+                            <div class="card-corner top-left"></div>
+                            <div class="card-corner bottom-right"></div>
+                            <h3>Objetivo</h3>
+                            <p>
+                                Valorizar o ensino de tecnologia e programação, oportunizando 
+                                aos estudantes desenvolverem soluções inovadoras que equilibrem 
+                                produção agrícola com sustentabilidade ambiental.
+                            </p>
+                        </div>
+                        <div class="intro-card fade-in">
+                            <div class="card-corner top-left"></div>
+                            <div class="card-corner bottom-right"></div>
+                            <h3>Participantes</h3>
+                            <p>
+                                Estudantes do Ensino Fundamental e Médio da rede pública estadual 
+                                do Paraná, com conhecimentos em Scratch, HTML/CSS/JavaScript 
+                                e pensamento computacional.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Página: História do Agrinho -->
+        <section id="historia" class="page">
+            <div class="page-header">
+                <h1>História do Agrinho</h1>
+                <div class="header-divider"></div>
+            </div>
+
+            <div class="section-container">
+                <div class="history-intro">
+                    <p class="intro-text">
+                        O Concurso Agrinho é uma iniciativa educacional que combina tecnologia, sustentabilidade 
+                        e inovação, promovendo o desenvolvimento de habilidades em programação entre estudantes 
+                        da rede pública paranaense. Conheça a trajetória e os objetivos deste importante projeto.
+                    </p>
+                </div>
+
+                <!-- Timeline -->
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Origem e Visão</h3>
+                            <p>
+                                O Concurso Agrinho nasceu da necessidade de conectar educação tecnológica com 
+                                a realidade do agronegócio brasileiro. Reconhecendo a importância da sustentabilidade 
+                                e da inovação, o SENAR-PR (Serviço Nacional de Aprendizagem Rural) e a SEED-PR 
+                                (Secretaria de Estado da Educação) uniram-se para criar uma plataforma que inspirasse 
+                                jovens talentos a desenvolver soluções criativas para os desafios do setor agrícola.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Missão Educacional</h3>
+                            <p>
+                                A missão do Agrinho é incentivar e valorizar o ensino de tecnologia e programação, 
+                                oportunizando aos estudantes dos Ensinos Fundamental e Médio da rede pública estadual 
+                                desenvolverem e superarem desafios. O concurso coloca em prática os conhecimentos 
+                                adquiridos em componentes curriculares como Educação Digital e Computação: Programação 
+                                e Robótica, Programação e IA, Pensamento Computacional e Matemática.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Tema Central: Sustentabilidade</h3>
+                            <p>
+                                Cada edição do Agrinho aborda um tema específico relacionado ao agronegócio sustentável. 
+                                O tema "Agro Forte, Futuro Sustentável: Equilíbrio entre Produção e Meio Ambiente" reflete 
+                                a urgência de encontrar soluções que harmonizem a produção agrícola com a preservação 
+                                ambiental, reconhecendo que o futuro da agricultura depende dessa integração.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Subcategorias e Inclusão</h3>
+                            <p>
+                                O concurso é dividido em três subcategorias para respeitar as habilidades desenvolvidas 
+                                em cada série: Subcategoria 1 (Scratch para 6º e 7º anos), Subcategoria 2 (Scratch para 
+                                8º e 9º anos) e Subcategoria 3 (HTML, CSS e JavaScript para Ensino Médio). Essa estrutura 
+                                garante que estudantes de diferentes níveis possam participar e contribuir com suas ideias.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Etapas do Concurso</h3>
+                            <p>
+                                O Agrinho é desenvolvido em três etapas: Etapa Escolar (desenvolvimento e avaliação 
+                                na instituição), Etapa Regional (seleção dos melhores projetos de cada escola) e Etapa 
+                                Estadual (premiação dos projetos mais inovadores). Cada etapa proporciona feedback valioso 
+                                e reconhecimento aos participantes.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Impacto e Legado</h3>
+                            <p>
+                                Desde sua criação, o Concurso Agrinho tem impactado milhares de estudantes, professores 
+                                e comunidades. Projetos desenvolvidos no concurso frequentemente abordam problemas reais 
+                                do agronegócio, desde otimização de recursos até monitoramento ambiental. O legado do 
+                                Agrinho é a formação de uma geração de inovadores comprometida com um futuro mais sustentável.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Edição 2026: Agrinho Forte</h3>
+                            <p>
+                                A edição 2026 do Agrinho marca um novo capítulo na história do concurso. Com o tema 
+                                "Agro Forte, Futuro Sustentável", convida estudantes a refletirem sobre como a tecnologia 
+                                e a programação podem contribuir para um agronegócio mais resiliente, produtivo e ambientalmente 
+                                responsável. É uma oportunidade para que você deixe sua marca no futuro da agricultura brasileira.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Seção de Valores -->
+                <div class="values-section">
+                    <h2>Valores Fundamentais do Agrinho</h2>
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <div class="value-icon">🎓</div>
+                            <h4>Educação</h4>
+                            <p>Promover aprendizado prático em tecnologia e programação</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon">🌱</div>
+                            <h4>Sustentabilidade</h4>
+                            <p>Integrar responsabilidade ambiental em cada projeto</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon">💡</div>
+                            <h4>Inovação</h4>
+                            <p>Estimular criatividade e pensamento crítico</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon">🤝</div>
+                            <h4>Colaboração</h4>
+                            <p>Conectar estudantes, professores e comunidade</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Seção de Participação -->
+                <div class="participation-section">
+                    <h2>Como Participar</h2>
+                    <div class="participation-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <h4>Verificar Requisitos</h4>
+                            <p>Confirme se você atende aos critérios de participação e escolha a subcategoria adequada</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <h4>Desenvolver Projeto</h4>
+                            <p>Crie seu projeto em Scratch ou HTML/CSS/JavaScript, abordando o tema sustentável</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <h4>Inscrever-se</h4>
+                            <p>Envie o link do seu projeto através do Ambiente Virtual de Aprendizagem até 14/06/2026</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <h4>Participar das Etapas</h4>
+                            <p>Acompanhe seu projeto pelas etapas escolar, regional e estadual</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Seção de Inspiração -->
+                <div class="inspiration-section">
+                    <h2>Inspiração e Desafio</h2>
+                    <div class="inspiration-box">
+                        <p>
+                            "O Concurso Agrinho não é apenas uma competição, mas uma jornada de aprendizado e descoberta. 
+                            É uma oportunidade para você demonstrar que a tecnologia, quando bem utilizada, pode ser uma 
+                            ferramenta poderosa para criar um futuro mais sustentável. Seus projetos podem inspirar mudanças 
+                            reais no agronegócio brasileiro."
+                        </p>
+                        <p style="margin-top: 1rem; font-weight: 600;">
+                            — Concurso Agrinho 2026
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Página: O Agro e o Meio Ambiente -->
+        <section id="agro-ambiente" class="page">
+            <div class="page-header">
+                <h1>O Agro e o Meio Ambiente</h1>
+                <div class="header-divider"></div>
+            </div>
+
+            <div class="section-container">
+                <div class="content-grid">
+                    <div class="content-main">
+                        <article class="article">
+                            <h2>A Relação Harmoniosa</h2>
+                            <p>
+                                A agricultura brasileira representa um dos pilares da economia nacional, 
+                                mas sua sustentabilidade depende de uma relação equilibrada com o meio ambiente. 
+                                O agronegócio moderno reconhece que produção e preservação ambiental não são 
+                                objetivos contraditórios, mas complementares.
+                            </p>
+
+                            <h3>Desafios Contemporâneos</h3>
+                            <p>
+                                A intensificação da produção agrícola trouxe desafios significativos: 
+                                degradação de solos, contaminação de aquíferos, desmatamento e perda de 
+                                biodiversidade. Esses problemas demandam soluções inovadoras que integrem 
+                                tecnologia, conhecimento científico e compromisso ambiental.
+                            </p>
+
+                            <h3>Oportunidades de Transformação</h3>
+                            <p>
+                                O Brasil possui condições ideais para liderar uma revolução agrícola sustentável. 
+                                Com investimentos em pesquisa, adoção de práticas regenerativas e integração 
+                                de tecnologias digitais, é possível aumentar a produtividade enquanto se 
+                                restauram ecossistemas e se reduzem emissões de carbono.
+                            </p>
+
+                            <div class="highlight-box">
+                                <p>
+                                    <strong>Fato importante:</strong> Estudos mostram que propriedades que adotam 
+                                    práticas sustentáveis apresentam maior produtividade a longo prazo e menor 
+                                    custo operacional.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <aside class="content-sidebar">
+                        <div class="sidebar-card">
+                            <h4>Pilares da Sustentabilidade</h4>
+                            <ul class="pillar-list">
+                                <li><span class="pillar-dot"></span> Conservação de recursos naturais</li>
+                                <li><span class="pillar-dot"></span> Produtividade agrícola</li>
+                                <li><span class="pillar-dot"></span> Viabilidade econômica</li>
+                                <li><span class="pillar-dot"></span> Bem-estar social</li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- Página: Tecnologias Sustentáveis -->
+        <section id="tecnologias" class="page">
+            <div class="page-header">
+                <h1>Tecnologias Sustentáveis</h1>
+                <div class="header-divider"></div>
+            </div>
+
+            <div class="section-container">
+                <div class="tech-grid">
+                    <div class="tech-card hover-lift">
+                        <div class="tech-icon">🌾</div>
+                        <h3>Agricultura de Precisão</h3>
+                        <p>
+                            Uso de drones, sensores e IA para otimizar o uso de água, fertilizantes 
+                            e pesticidas, reduzindo desperdícios e impacto ambiental.
+                        </p>
+                    </div>
+
+                    <div class="tech-card hover-lift">
+                        <div class="tech-icon">🔄</div>
+                        <h3>Sistemas Integrados</h3>
+                        <p>
+                            Integração de lavoura, pecuária e floresta (ILPF) que maximiza 
+                            a produtividade enquanto restaura solos e sequestra carbono.
+                        </p>
+                    </div>
+
+                    <div class="tech-card hover-lift">
+                        <div class="tech-icon">🌱</div>
+                        <h3>Plantio Direto</h3>
+                        <p>
+                            Técnica que preserva a estrutura do solo, aumenta sua matéria orgânica 
+                            e reduz a necessidade de maquinário pesado.
+                        </p>
+                    </div>
+
+                    <div class="tech-card hover-lift">
+                        <div class="tech-icon">💧</div>
+                        <h3>Irrigação Eficiente</h3>
+                        <p>
+                            Sistemas de irrigação por gotejamento e pivô central que reduzem 
+                            o consumo de água em até 50% comparado aos métodos tradicionais.
+                        </p>
+                    </div>
+
+                    <div class="tech-card hover-lift">
+                        <div class="tech-icon">🐝</div>
+                        <h3>Biodiversidade</h3>
+                        <p>
+                            Manutenção de áreas de preservação e corredores ecológicos que promovem 
+                            polinização natural e controle biológico de pragas.
+                        </p>
+                    </div>
+
+                    <div class="tech-card hover-lift">
+                        <div class="tech-icon">📊</div>
+                        <h3>Rastreabilidade Digital</h3>
+                        <p>
+                            Blockchain e IoT para rastrear produtos desde a origem, garantindo 
+                            transparência e certificação de práticas sustentáveis.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="tech-content">
+                    <h2>Inovação Contínua</h2>
+                    <p>
+                        As tecnologias sustentáveis não são estáticas. Pesquisadores brasileiros 
+                        continuam desenvolvendo soluções adaptadas às características regionais, 
+                        clima tropical e biodiversidade única do país. Investimentos em educação 
+                        tecnológica, como o Concurso Agrinho, são fundamentais para formar a próxima 
+                        geração de inovadores do agronegócio sustentável.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Página: Água e Solo -->
+        <section id="agua-solo" class="page">
+            <div class="page-header">
+                <h1>Água e Solo</h1>
+                <div class="header-divider"></div>
+            </div>
+
+            <div class="section-container">
+                <div class="two-column-layout">
+                    <div class="column">
+                        <h2>Conservação da Água</h2>
+                        <p>
+                            A água é o recurso mais crítico para a agricultura. O Brasil possui 
+                            12% da água doce do planeta, mas sua distribuição é desigual. 
+                            A conservação eficiente é essencial para garantir a produção agrícola 
+                            e o abastecimento humano.
+                        </p>
+
+                        <h3>Práticas Recomendadas</h3>
+                        <ul class="practice-list">
+                            <li>Captação de água de chuva em reservatórios</li>
+                            <li>Irrigação por gotejamento e microaspersão</li>
+                            <li>Rotação de culturas para reduzir consumo hídrico</li>
+                            <li>Proteção de nascentes e manutenção de matas ciliares</li>
+                            <li>Monitoramento de qualidade de água em aquíferos</li>
+                        </ul>
+
+                        <div class="stat-box">
+                            <div class="stat-number">70%</div>
+                            <div class="stat-label">da água doce é usada em agricultura</div>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <h2>Saúde do Solo</h2>
+                        <p>
+                            Um solo saudável é a base da agricultura sustentável. Ele armazena 
+                            carbono, filtra água, abriga biodiversidade e fornece nutrientes 
+                            para as plantas. A degradação do solo ameaça a produtividade agrícola 
+                            e amplifica mudanças climáticas.
+                        </p>
+
+                        <h3>Indicadores de Saúde</h3>
+                        <ul class="practice-list">
+                            <li>Matéria orgânica adequada (> 2%)</li>
+                            <li>Estrutura estável e boa infiltração</li>
+                            <li>Biodiversidade de microrganismos</li>
+                            <li>pH equilibrado para culturas</li>
+                            <li>Ausência de contaminantes</li>
+                        </ul>
+
+                        <div class="stat-box">
+                            <div class="stat-number">33%</div>
+                            <div class="stat-label">dos solos globais estão degradados</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="restoration-section">
+                    <h2>Restauração e Regeneração</h2>
+                    <p>
+                        Solos degradados podem ser recuperados através de práticas regenerativas. 
+                        A restauração não apenas melhora a produtividade, mas também sequestra carbono 
+                        da atmosfera, contribuindo para a mitigação das mudanças climáticas.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Página: Futuro Sustentável -->
+        <section id="futuro" class="page">
+            <div class="page-header">
+                <h1>Futuro Sustentável</h1>
+                <div class="header-divider"></div>
+            </div>
+
+            <div class="section-container">
+                <div class="future-content">
+                    <article class="future-article">
+                        <h2>Visão 2050</h2>
+                        <p>
+                            O futuro do agronegócio brasileiro depende de uma transformação profunda 
+                            que integre sustentabilidade em cada aspecto da produção. Não se trata apenas 
+                            de cumprir regulações, mas de reconhecer que a prosperidade econômica está 
+                            intrinsecamente ligada à saúde ambiental.
+                        </p>
+
+                        <h3>Cenários Possíveis</h3>
+
+                        <div class="scenario">
+                            <h4>Cenário Otimista</h4>
+                            <p>
+                                Com investimentos em tecnologia, educação e políticas públicas alinhadas, 
+                                o Brasil pode se tornar líder global em agronegócio regenerativo. 
+                                Propriedades rurais funcionariam como sumidouros de carbono, restaurando 
+                                ecossistemas enquanto aumentam produtividade e rentabilidade.
+                            </p>
+                        </div>
+
+                        <div class="scenario">
+                            <h4>Desafios a Superar</h4>
+                            <p>
+                                Mudanças climáticas, pressão por desmatamento, falta de financiamento 
+                                para transição tecnológica e resistência a novas práticas são obstáculos 
+                                significativos. A educação e a inovação são chaves para superá-los.
+                            </p>
+                        </div>
+
+                        <h3>O Papel da Próxima Geração</h3>
+                        <p>
+                            Estudantes como você, participando de concursos como o Agrinho, estão 
+                            desenvolvendo as habilidades necessárias para liderar essa transformação. 
+                            Programação, pensamento computacional e criatividade são ferramentas poderosas 
+                            para criar soluções que o mundo precisa.
+                        </p>
+
+                        <div class="call-to-action">
+                            <h3>Você pode fazer a diferença</h3>
+                            <p>
+                                Cada linha de código, cada ideia inovadora, cada projeto desenvolvido 
+                                com propósito contribui para um futuro mais sustentável. O agronegócio 
+                                do futuro será construído por pessoas como você.
+                            </p>
+                            <button class="btn btn-primary" onclick="toggleChatbot()">Converse com nosso assistente</button>
+                        </div>
+                    </article>
+
+                    <aside class="future-sidebar">
+                        <div class="reflection-box">
+                            <h4>Reflexão Final</h4>
+                            <p>
+                                "A sustentabilidade não é um destino, mas uma jornada contínua de 
+                                aprendizado, adaptação e inovação. Cada geração tem a responsabilidade 
+                                de deixar o planeta melhor do que encontrou."
+                            </p>
+                        </div>
+
+                        <div class="resources-box">
+                            <h4>Saiba Mais</h4>
+                            <ul>
+                                <li>SENAR-PR: Formação em agronegócio</li>
+                                <li>SEED-PR: Educação Digital</li>
+                                <li>Embrapa: Pesquisa agropecuária</li>
+                                <li>ONU: Objetivos de Desenvolvimento Sustentável</li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Chatbot IA -->
+    <div class="chatbot-container" id="chatbotContainer">
+        <div class="chatbot-header">
+            <h3>Assistente Agrinho</h3>
+            <button class="chatbot-close" onclick="toggleChatbot()">✕</button>
+        </div>
+        <div class="chatbot-messages" id="chatbotMessages"></div>
+        <div class="chatbot-input-area">
+            <input 
+                type="text" 
+                id="chatbotInput" 
+                class="chatbot-input" 
+                placeholder="Faça uma pergunta sobre agronegócio sustentável..."
+                onkeypress="handleChatInput(event)"
+            >
+            <button class="chatbot-send" onclick="sendChatMessage()">Enviar</button>
+        </div>
+    </div>
+
+    <!-- Botão Flutuante do Chatbot -->
+    <button class="chatbot-fab" id="chatbotFab" onclick="toggleChatbot()">
+        <span class="chatbot-icon">💬</span>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Concurso Agrinho - SENAR-PR e SEED-PR</p>
+            <p>Tema: Agro Forte, Futuro Sustentável: Equilíbrio entre Produção e Meio Ambiente</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/chatbot.js"></script>
+</body>
+</html>
